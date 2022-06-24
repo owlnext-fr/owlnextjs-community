@@ -186,8 +186,6 @@ The last phase is rendering. We applied a MVC method to this stack render. Every
 
 You can automatically generate your components (creating four files is sometimes tedious, mostly if you have multiple child components to be contained). So we added a custom CLI generating components with all the structure already done. 
 
-To do that, go to you repository and go inside your node docker container with 'docker-compose exec node bash'. Once inside, just type yarn createComponent YOUR_COMPONENT_NAME to generate the MVC directly in your component directory, saves some time.
-
 To do that, go to your source folder and execute :
 
 ```bash
