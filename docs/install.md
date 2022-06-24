@@ -2,7 +2,7 @@
 
 You can run this project using two ways : node directly on your system and docker.
 
-> You may choose docker because it's already setup the way it's meant to run.
+> ❗ You may choose docker because it's already setup the way it's meant to run.
 
 ## Docker
 
@@ -15,7 +15,7 @@ docker-compose run --build -d
 
 Then, wait a minute the time for NPM to install all packages for you, and go to [http://localhost:3000](http://localhost:3000) to see the project running.
 
-> You can follow the NPM install and build steps using `docker-compose logs -f owlnextjs`.
+> ❔ You can follow the NPM install and build steps using `docker-compose logs -f owlnextjs`.
 
 ## NPM
 
