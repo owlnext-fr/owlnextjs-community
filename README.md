@@ -12,13 +12,13 @@ You can find the project documentation under [docs](./docs/index.md).
 
 * [Installation / Setup](./docs/install.md)
 * [Concepts](./docs/concepts.md)
-  * [Security]()
-  * [HTTP requests]()
-  * [Middlewares]()
-  * [Reducers]()
-  * [Containers]()
-  * [Rendering]()
-* [Usage]()
+  * [Security](./docs/concepts.md#security)
+  * [HTTP requests](./docs/concepts.md#http-requests)
+  * [Middlewares](./docs/concepts.md#middlewares)
+  * [Reducers](./docs/concepts.md#reducers)
+  * [Containers](./docs/concepts.md#containers)
+  * [Rendering](./docs/concepts.md#rendering)
+* [Usage](./docs/usage.md)
 
 ## Contributing
 
