@@ -84,7 +84,7 @@ You can split this wrapper in two distinct sections : the headers and options la
 
 Another thing, the refreshToken method is called when the JWT's expiration date is reached, automatically refreshing the user session's JWT and making the right call juste after.
 
-# Middlewares and Reducers
+## Middlewares and Reducers
 
 Redux is built in this stack, so you can use its functionalities everywhere on the app. Nothing out of the ordinary here, you can go to the redux documentation if you want more details.
 
@@ -182,7 +182,7 @@ The last phase is rendering. We applied a MVC method to this stack render. Every
 
 * `Styles`: sass module linked directly to the component.
 
-![container](./docs/MVC_example.png)
+![container](./assets/MVC_example.png)
 
 You can automatically generate your components (creating four files is sometimes tedious, mostly if you have multiple child components to be contained). So we added a custom CLI generating components with all the structure already done. 
 
