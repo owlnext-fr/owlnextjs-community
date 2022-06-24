@@ -13,7 +13,7 @@ You can find the project documentation under [docs](./docs/index.md).
 * [Installation / Setup]()
 * [Concepts]()
   * [Security]()
-  * [HTTP]()
+  * [HTTP requests]()
   * [Middlewares]()
   * [Reducers]()
   * [Containers]()
