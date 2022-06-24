@@ -11,7 +11,7 @@ You can find the project documentation under [docs](./docs/index.md).
 ### Summary
 
 * [Installation / Setup](./docs/install.md)
-* [Concepts]()
+* [Concepts](./docs/concepts.md)
   * [Security]()
   * [HTTP requests]()
   * [Middlewares]()
