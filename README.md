@@ -11,7 +11,6 @@ You can find the project documentation under [docs](./docs/index.md).
 ### Summary
 
 * [Installation / Setup](./docs/install.md)
-
 * [Concepts]()
   * [Security]()
   * [HTTP requests]()
@@ -19,7 +18,6 @@ You can find the project documentation under [docs](./docs/index.md).
   * [Reducers]()
   * [Containers]()
   * [Rendering]()
-  
 * [Usage]()
 
 ## Contributing
