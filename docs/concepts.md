@@ -195,4 +195,4 @@ To do that, go to your source folder and execute :
 npm run createComponent <your_component_name>
 ```
 
-> For docker users, you can connect to your docker container with `docker-compose exec owlnextjs bash` and execute the same command.
+> ❔ For docker users, you can connect to your docker container with `docker-compose exec owlnextjs bash` and execute the same command.
