@@ -8,6 +8,17 @@ OwlnextJS community edition is an open-source licenced fork of the Owlnext NextJ
 
 You can find the project documentation under [docs](./docs/index.md).
 
+### Summary
+
+* [Installation / Setup]()
+* [Concepts]()
+  * [Security]()
+  * [HTTP]()
+  * [Middlewares]()
+  * [Reducers]()
+  * [Containers]()
+  * [Rendering]()
+
 ## Contributing
 
 If you wish to contribute to the project, please refer to the contribution policy in [CONTRIBUTING.md](./CONTRIBUTING.md).
