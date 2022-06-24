@@ -54,7 +54,7 @@ Many variables are in play here :
 
 ## HTTP requests
 
-Every single external call in this stack passes through the httpWrapper. It's purpose is to create an axios instance of the call, put all the necessary header's options, make the call and return the Promise.
+Every single external call in this stack passes through the `httpWrapper`. It's purpose is to create an `axios` instance of the call, put all the necessary header's options, make the call and return the Promise.
 
 Here's a list of the parameters : 
 
@@ -82,19 +82,19 @@ Here's a list of the parameters :
 
 You can split this wrapper in two distinct sections : the headers and options layer, who will process all the parameters to ready the call, and the makeCall function, who's job is to ... make the call !
 
-Another thing, the refreshToken method is called when the JWT's expiration date is reached, automatically refreshing the user session's JWT and making the right call juste after.
+Another thing, the `refreshToken` method is called when the JWT's expiration date is reached, automatically refreshing the user session's JWT and making the right call juste after.
 
 ## Middlewares and Reducers
 
-Redux is built in this stack, so you can use its functionalities everywhere on the app. Nothing out of the ordinary here, you can go to the redux documentation if you want more details.
+Redux is built in this project, so you can use its features everywhere on the app. Nothing out of the ordinary here, you can go to the [redux documentation](https://react-redux.js.org/introduction/getting-started) if you want more details.
 
 Although you absolutely can use these tools like you want to, I should note here that there is a single way to use Redux on this stack :
 
-* dispatch the call
+1. dispatch the call
 
-* grab the type inside the corresponding middleware and make the call
+2. grab the type inside the corresponding middleware and make the call
 
-* get the result and format it in the corresponding reducer if necessary
+3. get the result and format it in the corresponding reducer if necessary
 
 
 ```typescript
@@ -144,7 +144,8 @@ case types.SET_SPECIFIC_ABOVE_OBJECT:
 ## Containers
 
 Every page and components is `containerized` in this stack. What this means is that instead of calling directly a component to do its render, we call a container, which is calling the component.
-The container (index.ts for most cases) contains the `mapStateToProps` and `mapDispatchToProps` functions, linking the reducers and middlewares directly to the components.
+
+The container (`index.ts` for most cases) contains the `mapStateToProps` and `mapDispatchToProps` functions, linking the reducers and middlewares directly to the components.
 
 
 ```typescript
@@ -168,7 +169,9 @@ export default connect(
 )(ViewModel);
 ```
 
-It prevents props drilling, makes development easier and clearer... Try not to import actions or reducer variables directly in the components !
+It prevents props drilling, makes development easier and clearer... 
+
+> ⚠️ Try not to import actions or reducer variables directly in the components !
 
 ## Rendering
 
