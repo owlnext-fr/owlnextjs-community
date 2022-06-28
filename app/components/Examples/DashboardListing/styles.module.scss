@@ -1,0 +1,31 @@
+@import '/styles/vars';
+
+.ticketName{
+	display: flex;
+	font-size: $text;
+	align-items: center;
+	gap: 15px;
+
+	svg{
+		color: $highGray;
+	}
+}
+
+.ticketsList {
+	.header{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+
+		.title{
+			font-weight: bold;
+			font-size: $title;
+		}
+
+		.titleContainer{
+			display: flex;
+			align-items: center;
+		}
+	}
+}

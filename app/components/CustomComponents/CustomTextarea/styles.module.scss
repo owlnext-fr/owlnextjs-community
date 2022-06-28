@@ -1,0 +1,22 @@
+@import '/styles/vars';
+
+.customTextareaContainer {
+  width: 100%;
+
+  textarea {
+    resize: none;
+    outline: none;
+    font-size: $text;
+    width: 100%;
+    font-family: 'Manrope';
+    border: none;
+    box-shadow: 0px 0px 2px #222F3A;
+    padding: 10px;
+    border-radius: $smallRadius;
+  }
+
+  .error{
+    box-shadow: 0px 0px 5px red;
+  }
+}
+

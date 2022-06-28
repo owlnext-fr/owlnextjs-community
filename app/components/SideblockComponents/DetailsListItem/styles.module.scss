@@ -1,0 +1,29 @@
+@import '/styles/vars';
+
+.detailsListItemContainer {
+  display: flex;
+  width: 100%;
+  font-size: $text;
+  margin-bottom: 15px;
+  position: relative;
+
+  .title{
+    flex: 1;
+  }
+  
+  .value{
+    font-weight: bold;
+    flex: 3;
+  }
+
+  .actions{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
+}

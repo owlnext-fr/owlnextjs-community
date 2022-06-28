@@ -1,0 +1,29 @@
+@import '/styles/vars';
+
+.addressAutocompleteContainer {
+    height: auto;
+    margin-bottom: 30px;
+    width: 100%;
+
+    .addressesContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .addressChip{
+            padding: 5px 15px;
+            border: 1px solid $sideBlockDetailsColor;
+            margin-top: 15px;
+            border-radius: $radius;
+            box-shadow: 0px 0px 8px #00000029;
+            font-size: $text;
+            cursor: pointer;
+
+            svg{
+                color: $sideBlockDetailsColor;
+            }
+        }
+    }
+}
+  
+  

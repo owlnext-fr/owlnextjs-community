@@ -1,0 +1,14 @@
+@import '/styles/vars';
+
+  .sideblockhead {
+    min-height: 67px;
+    padding: 16px;
+    background-color: $sideBlockDetailsColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 3px 50px 0 rgb(0 0 0 / 19%);
+    z-index: 1;
+  }
+  
+  

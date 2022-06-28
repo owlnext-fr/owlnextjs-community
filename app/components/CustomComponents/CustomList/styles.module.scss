@@ -1,0 +1,22 @@
+@import '/styles/vars';
+
+.listContainer {
+  position: relative;
+
+  .plusIcon{
+    position: absolute;
+    top: 2px; 
+    right: 0;
+    color: $sideBlockDetailsColor;
+    border: 2px solid $sideBlockDetailsColor;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 250ms;
+  }
+
+  .plusIcon:hover{
+    color: white;
+    background: $sideBlockDetailsColor;
+  }
+}
+

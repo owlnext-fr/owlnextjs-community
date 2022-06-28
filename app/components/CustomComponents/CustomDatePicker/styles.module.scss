@@ -1,0 +1,51 @@
+@import '/styles/vars';
+
+.customDatePickerContainer{
+  margin-left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+
+  & span{
+    
+  }
+
+  .date{
+    width: 100%;
+
+    .error{
+      border: 1px solid red;
+    }
+  }
+
+  input{
+    color: black;
+  }
+
+  
+
+  .timeInput{
+  }
+
+  .timepicker{
+    margin-top: 5px;
+    // max-width: 68px;
+
+    input{
+      border-radius: $smallRadius;
+      font-size: $text;
+    }
+  }
+}
+
+.error{
+  border-color: $redLight !important;
+}
+
+.disabled{
+  background-color: #e8e8e8;
+}
+
+.dateWithTime{
+}

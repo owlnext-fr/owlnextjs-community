@@ -1,0 +1,80 @@
+@import '/styles/vars';
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  justify-self: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.borders {
+  text-align: center;
+  padding: 0px 15px;
+  border: 1px solid $mediumGray;
+  border-radius: $radius;
+  box-shadow: 10px 10px 10px $mediumGray;
+}
+
+.createaccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailField{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.passwordField{
+  margin-bottom: 24px;
+}
+
+.errorBox{
+  display: flex;
+  width: 216px;
+  font-size: 10px;
+  color: #d1d1d1;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  line-height: 15px;
+}
+
+.explain{
+  max-width: 400px;
+}
+
+.activate{
+  display: flex;
+  margin-top: 16px;
+  width: 400px;
+
+  & :nth-child(1) {
+    margin-right: 16px;
+  }
+}
+
+.confirm{
+  margin-bottom: 32px;
+}
+
+.valid {
+  color: #26cb7a
+}
+
+.form{
+  align-self: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader{
+  margin-top: 40px;
+}

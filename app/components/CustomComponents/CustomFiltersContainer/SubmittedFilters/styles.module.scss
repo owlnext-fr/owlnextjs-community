@@ -1,0 +1,68 @@
+@import '/styles/vars';
+
+.activatedFiltersContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	align-items: center;
+	position: relative;
+	margin-left: 15px;
+
+	.categoryContainer{
+		display: flex;
+		flex-direction: row;
+		border: 1px solid $mediumGray;
+		margin-right: 15px;
+		padding: 5px;
+		border-radius: 5px;
+		align-items: center;
+		position: relative;
+
+		.closeIcon{
+			position: absolute;
+			font-size: $text;
+			border: 1px solid $redLight;
+			color: white;
+			background-color: $redLight;
+			border-radius: 50%;
+			cursor: pointer;
+			right: -5px;
+			top: -4px;
+		}
+
+		.name{
+			font-size: $text;
+			
+		}
+
+		.cancelIcon {
+			position: absolute;
+			top: -7px;
+			right: -7px;
+			z-index: 999;
+			background: white;
+			width: 15px;
+			height: 15px;
+			color: white;
+		}
+		.cancelIcon:hover {
+			cursor: pointer;
+		}
+		.categoryTitle {
+			margin-left: 10px;
+			font-size: $text;
+		}
+		.chip {
+			display: flex;
+			margin-left: 10px;
+			margin-left: 5px;
+			background-color: $menuColor !important;
+			color: white !important;
+			border: 1px solid $menuColor;
+			svg {
+				color: white;
+			}
+		}
+	}
+	
+}

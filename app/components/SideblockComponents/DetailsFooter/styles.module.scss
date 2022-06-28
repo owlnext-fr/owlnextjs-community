@@ -1,0 +1,19 @@
+.footer{
+  height: 80px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  z-index: 999;
+
+  .detailsFooterContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+}
+
+

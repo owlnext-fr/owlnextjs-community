@@ -1,0 +1,99 @@
+@import '/styles/vars';
+
+.customButtonContainer{
+  display: flex;
+  padding: 5px 5px;
+  border-radius: 60px;
+  color: white;
+  font-size: $text;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 150ms;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 25px;
+  text-align: center;
+
+  &:hover{
+    opacity: 0.7;
+  }
+
+  &:active{
+    opacity: 0.5;
+  }
+
+  .plusIcon{
+    display: flex;
+    border: 1px solid $menuColor;
+    border-radius: $radius;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    margin: 0;
+    margin-right: 5px;
+    padding-right: 1px;
+  }
+
+  .text{
+    padding: 0 10px;
+  }
+}
+
+.cancel{
+  background: $redLight;
+}
+
+.cancel:hover{
+  background: $redLightHover;
+}
+
+.next{
+  background: $menuColor;
+}
+
+.validate{
+  background: $menuColor;
+}
+
+.validate:hover{
+  background: $menuColorHover;
+}
+
+.nextStep{
+  background: white;
+  border: 1px solid white;
+  color: $sideBlockDetailsColor;
+}
+
+.tertiaryValidate{
+  background: white;
+  border: 1px solid $backgroundLightWhite;
+  color: $greenLight;
+}
+
+.tertiaryCancel{
+  background: white;
+  border: 1px solid $backgroundLightWhite;
+  color: $redLight;
+}
+
+.dottedCta{
+  background: white;
+  border: 1px dashed $menuColor;
+  color: $menuColor;
+}
+
+.disabled{
+  background: grey;
+  cursor: initial;
+}
+
+.disabled:hover{
+  background: grey;
+  opacity: 1;
+}

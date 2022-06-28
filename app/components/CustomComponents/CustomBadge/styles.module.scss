@@ -1,0 +1,21 @@
+@import '/styles/vars';
+
+.badgeContainer{
+  border: 1px solid $mediumGray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .colorBit{
+    padding-left: 10px;
+    flex: 1;
+  }
+
+  .text{
+    font-size: $text;
+    flex: auto;
+    padding: 0 10px;
+  }
+}

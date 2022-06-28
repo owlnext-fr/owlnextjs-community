@@ -1,0 +1,34 @@
+@import '/styles/vars';
+
+.h1 {
+  font-family: Manrope;
+  font-size: 30pt;
+  line-height: 41pt;
+  
+}
+
+.h2 {
+    font-family: Manrope;
+    font-size: 16pt;
+    line-height: 28pt;
+    
+}
+
+.p {
+  font-family: Manrope;
+  font-size: 11pt;
+  line-height: 20pt;
+  // margin: 0;
+}
+
+.span {
+  font-family: Manrope;
+  font-size: 9pt;
+  line-height: 20pt;
+  color: #222f3a;
+}
+
+.noMargin{
+  margin-top: 0;
+  margin-bottom: 0;
+}

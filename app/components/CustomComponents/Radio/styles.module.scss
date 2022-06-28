@@ -1,0 +1,37 @@
+
+  .radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #03738C;
+    cursor: pointer;
+    transition: border-width 0.1s ease-in-out;
+    margin-right: 24px;
+    
+
+    
+  }
+  
+  .checked{
+    border: 7px solid #03738C;
+  }
+
+  .container{
+    display: flex;
+    cursor: pointer;
+
+    &:hover{
+      & .radio{
+        border: 6px solid #03738C;
+     }
+    }
+
+    &:active{
+      & .radio{
+        border: 8px solid #03738C;
+     }
+    }
+  }
+
+  .right{
+  }

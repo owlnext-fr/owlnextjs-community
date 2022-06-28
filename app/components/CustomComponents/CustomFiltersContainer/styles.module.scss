@@ -1,0 +1,96 @@
+@import '/styles/vars';
+
+.masterContainer{
+	display: flex;
+	align-items: center;
+	margin-left: 32px;
+
+	.filtersContainer{
+		display: flex;
+		
+		.filtreButton{
+			display: flex;
+			font-size: $text !important;
+			font-weight: bold;
+			cursor: pointer;
+			transition: 150ms;
+			color: $highGray !important;
+		}
+
+		.activatedContainer{
+
+		}
+
+		.filterContainer{
+			position: absolute;
+			background: #fff;
+			box-shadow: 0px 0px 2px #00000029;
+			border-radius: 5px;
+			padding: 0px 10px 20px 20px;
+			margin-bottom: 5px;
+			font-size: $text !important;
+			color: $menuColor !important;
+			width: 250px;
+			z-index: 9999;
+		}
+	}
+}
+
+
+
+// .filtersIcon {
+// 	margin-top: 20px;
+// }
+// .filterClickContainer {
+// 	padding-bottom: 15px;
+// }
+
+// .filterClickContainer:hover {
+// 	cursor: pointer;
+// }
+
+// .filterContainer {
+	// position: absolute;
+	// background: white;
+	// border: 1px solid #212d4b5d !important;
+	// border-radius: 5px;
+	// padding: 0px 10px 20px 20px;
+	// margin-bottom: 5px;
+	// font-size: $text !important;
+	// color: $menuColor !important;
+	// width: 250px;
+
+// 	.validateFilters {
+// 		margin-top: 10px;
+// 	}
+// 	.filtersContainer {
+// 		margin-bottom: 5px;
+// 	}
+// 	.filtersList {
+// 		display: block !important;
+// 		padding: 0 0 0 16px !important;
+// 	}
+// 	.filterOption {
+// 		width: 100%;
+
+// 		.MuiFormControlLabel-label{
+// 			font-size: $text !important;
+// 		}
+// 	}
+// 	.filterOption label {
+// 		width: 100%;
+// 	}
+// }
+
+// .filtreButton {
+// 	display: flex;
+// 	padding: 10px 20px;
+// 	border-radius: 20px;
+// 	font-size: $text !important;
+// 	font-weight: bold;
+// 	cursor: pointer;
+// 	transition: 150ms;
+// 	background-color: white !important;
+// 	border: 1px solid $backgroundLightWhite;
+// 	color: $highGray !important;
+// }

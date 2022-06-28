@@ -1,0 +1,35 @@
+@import '/styles/vars';
+
+.customCollapseContainer {
+  margin-bottom: 15px;
+  border: 1px solid $borderColor;
+  padding: 10px;
+  border-radius: $radius;
+  transition: 250ms;
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+
+    .title{
+      font-size: $title;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .arrow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .content{
+    font-size: $text;
+    margin-top: 15px;
+    
+  }
+}

@@ -1,0 +1,17 @@
+@import '/styles/vars';
+
+.statusContainer{
+  background: $lightBlue;
+  color: $mediumBlue;
+  padding: 0px 15px;
+  border-radius: 20px;
+  border: 1px solid $mediumBlue;
+  font-size: $text;
+  white-space: nowrap;
+}
+
+.disabled{
+  background: $thinGray;
+  color: $highGray;
+  border: 1px solid $highGray;
+}
