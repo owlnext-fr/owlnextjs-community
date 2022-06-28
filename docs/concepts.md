@@ -203,6 +203,8 @@ I18n is already included in the project, and you can use any JSON object stored 
 
 In this project, only french (`fr`) translations are included ; but you can add dictionaries and translation methods from the `useTranslation` hook (`hooks/useTranslation/translations/index.ts`).
 
+You can also use the `import_translation.sh` as a starting point to create automated means of getting your translations from an external provider (here `localize.biz`).
+
 ## Dotenv
 
 The `Dotenv` component is included with this project, meaning that you can use a `.env.local` file to store any environment specific variables (i.e. API credentials, etc.).

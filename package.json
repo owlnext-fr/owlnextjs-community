@@ -1,6 +1,24 @@
 {
-  "name": "nextjs_skeleton",
+  "name": "owlnextjs-community",
   "private": true,
+  "version": "1.0.0",
+  "description": "OwlnextJS community edition is an open-source licenced fork of the Owlnext NextJS Framework.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owlnext-fr/owlnextjs-community"
+  },
+  "keywords": [
+    "owlnext",
+    "framework",
+    "next",
+    "react",
+    "node"
+  ],
+  "author": "Owlnext",
+  "license": "AGPL-3.0 license",
+  "bugs": {
+    "url": "https://github.com/owlnext-fr/owlnextjs-community/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
