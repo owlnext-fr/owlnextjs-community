@@ -17,6 +17,8 @@ You can find the project documentation under [docs](./docs).
   * [Middlewares and reducers](./docs/concepts.md#middlewares-and-reducers)
   * [Containers](./docs/concepts.md#containers)
   * [Rendering](./docs/concepts.md#rendering)
+  * [Translations](./docs/concepts.md#translations)
+  * [Dotenv](./docs/concepts.md#dotenv)
 * [Usage](./docs/usage.md)
 
 ## Contributing

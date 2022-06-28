@@ -196,3 +196,15 @@ npm run createComponent <your_component_name>
 ```
 
 > ❔ For docker users, you can connect to your docker container with `docker-compose exec owlnextjs bash` and execute the same command.
+
+## Translations
+
+I18n is already included in the project, and you can use any JSON object stored in a language file using `public/locales/<language code>/<dictionary>.js`.
+
+In this project, only french (`fr`) translations are included ; but you can add dictionaries and translation methods from the `useTranslation` hook (`hooks/useTranslation/translations/index.ts`).
+
+## Dotenv
+
+The `Dotenv` component is included with this project, meaning that you can use a `.env.local` file to store any environment specific variables (i.e. API credentials, etc.).
+
+To use it, simply copy the `.env` file as `.env.local` and start filling your environment variables.
