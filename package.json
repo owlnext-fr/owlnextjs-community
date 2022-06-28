@@ -24,8 +24,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "createComponent": "node utils/cli/create-component.js",
-    "generate": "node utils/cli/generate.js"
+    "createComponent": "node utils/cli/create-component.js"
   },
   "dependencies": {
     "@babel/runtime": "^7.16.7",
