@@ -1,0 +1,120 @@
+@import '/styles/vars';
+
+.loginContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .body{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        .login{
+            position: relative;
+            flex: 3;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            background: $mediumGray;
+            height: 100%;
+            background: $backgroundHoverColors;
+
+            .contentContainer{
+                width: 100%;
+                height: 100% ;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                position: relative;
+
+                .left{
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+
+                    .logo{
+                        max-width: 340px !important;
+                        min-width: 340px !important;
+                        margin-bottom: 50px;
+                        display: flex;
+                        position: absolute;
+                        top: 100px;
+                        left: 25%;
+                        transform: translateX(-50%);
+                    }
+                }
+
+                .right{
+                    flex: 1;
+                    background-image: url("../public/assets/images/owl.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $sideBlockDisappear) {
+    .loginContainer{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    
+        .body{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+    
+            .login{
+                position: relative;
+                // height: calc(100% - 80px);
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                // height: calc(100% - 80px);
+                flex-direction: column;
+                position: relative;
+    
+                .contentContainer{
+                    width: 100%;
+                    height: 100% ;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    position: relative;
+    
+                    .left{
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+    
+                        .logo{
+                            max-width: 200px !important;
+                            min-width: 200px !important;
+                            margin-bottom: 50px;
+                            display: flex;
+                            position: absolute;
+                            top: 100px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                    }
+    
+                    .right{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

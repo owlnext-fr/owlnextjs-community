@@ -1,0 +1,12 @@
+{
+  "GET_PAGE_BY_SLUG": "/pages/",
+  "POST_SEARCH_QUERY": "/api/public/healthcare-professional/search",
+  "GET_DOCTOR_BY_ID": "/api/public/x-person-company-profession/{id}",
+  "GET_DOCTORS": "/api/x-person-company-profession",
+  "GET_COUNTRIES": "/api/public/countries",
+  "GET_IDCHECK_DOCUMENT_BY_COUNTRY": "/api/public/countries/{id}/check-docs",
+  "POST_NEW_COMPANY": "/api/public/companies/create",
+  "POST_EMAIL_CHECK": "/api/auth/email/check-code",
+  "POST_SEND_EMAIL_CHECK_CODE_AGAIN": "/api/auth/email/resend-code",
+  "POST_AUTHENTICATE": "/api/authentication_token"
+}

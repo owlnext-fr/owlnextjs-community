@@ -1,0 +1,63 @@
+@import '/styles/vars';
+
+.sideblockContainer{
+    position: relative;
+    height: 100%;
+    // overflow: hidden;
+    
+    .title{
+        font-weight: bold;
+        font-size: $title;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+
+        svg{
+            padding-right: 10px;
+        }
+
+        svg:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.sideblockPanelContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    top: 0;
+    left: calc(-100% - 53px);
+    padding: 25px;
+    transition: 250ms;
+    z-index: 1;
+    box-shadow: -10px 15px 10px 10px rgb(0 0 0 / 10%);
+}
+
+.sideblockPanelInactiveContainer{
+    transition: 250ms;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.sideblockAboveContainer{
+    z-index: 999;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+
+.sideblockClassicContainer{
+    height: 100%;
+    padding: 25px;
+    z-index: 500;
+}

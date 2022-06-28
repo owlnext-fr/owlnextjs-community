@@ -1,0 +1,56 @@
+@import '/styles/vars';
+
+.forgottenPasswordContainer{
+    padding: 30px 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: $text;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    background: white;
+
+    .passwordFormContainer{
+        .error{
+          color: $redLight;
+        }
+
+        input{
+            margin-bottom: 10px;
+        }
+    }
+
+    .title{
+        text-align: center;
+        color: $lisibleGrey;
+        margin-bottom: 15px;
+
+        .register{
+            cursor: pointer;
+        }
+    }
+
+    .text{
+      margin-bottom: 15px;
+    }
+
+    .loginInput{
+        margin-top: 15px;
+    }
+
+    .buttonContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top : 15px;
+
+        .forgotPassword{
+            color: $lisibleGrey;
+            cursor: pointer;
+        }
+    }
+
+    .stepTwoContainer{
+        text-align: left;
+    }
+}

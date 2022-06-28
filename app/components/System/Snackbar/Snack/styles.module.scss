@@ -1,0 +1,54 @@
+@import '/styles/vars';
+
+.snack {
+    width: 400px; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin-bottom: 8px;
+    opacity: 1;
+    transition: opacity 0.5s;
+    font-size: $text;
+}
+
+  .warning{
+    background-color: #f9ead5;
+    border: solid 1px #F29F05;
+    color: #F29F05;
+  }
+
+  .success{
+    background-color: #e0eccd;
+    color: #81BF24;
+    border: solid 1px #81BF24;
+  }
+  
+  .error{
+    background-color: #f6c7d0;
+    color: #f21a30;
+    border: solid 1px #f21a30;
+  }
+
+  .info{
+    background-color: #c7e4f6;
+    color: #2097f2;
+    border: solid 1px #2097f2;
+  }
+
+  .disapear{
+    opacity: 0;
+  }
+
+  .closeIcon {
+    cursor: pointer;
+
+    &:hover{
+      opacity: 0.7;
+    }
+
+    &:active{
+      opacity: 0.5;
+    }
+}

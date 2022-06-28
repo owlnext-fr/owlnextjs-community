@@ -1,0 +1,44 @@
+
+  .searchitem {
+    border-bottom: solid 1px #d1d1d1;
+    cursor: pointer;
+    max-width: 500px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+      opacity: 0.7;
+    }
+
+    &:active{
+      opacity: 0.5;
+    }
+  }
+
+  .avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    margin-right: 16px;
+    & svg{
+      object-fit: cover;
+      width: 56px;
+      height: 56px;
+    }
+  }
+
+  .name {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .birthDate {
+    font-size: 13px;
+  }
+
+  .phone, .email{
+  font-size: 11px;
+  font-style: italic;
+  }

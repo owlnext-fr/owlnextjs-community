@@ -1,0 +1,69 @@
+$titleFont: 'Cuprum', sans-serif;
+
+$mainColor: #788585;
+$appointmentColor: #4E5166;
+
+// PRIMARY COLORS
+$nightBlue: #222F3A;
+$skyBlue: #ADD6ED;
+$white: #FFFFFF;
+$darkGray: #222F3A;
+$mediumGray: #ADD6ED;
+$lightGray: #FFFFFF;
+
+// SECONDARY COLORS
+$backgroundLightWhite: #d1d1d1;
+$backgroundHoverColors: #222f3a;
+$blue: #80B5D6;
+$lightBlue: #BDDAEC;
+$mediumBlue: #0476D9;
+$mediumBlueLight: #7BB6E9;
+$greenBlue: #0373BC;
+$greenBlueLight: #74ADB9;
+$green: #68A672;
+$greenLight: #A9CAAE;
+$darkYellow: #F2AE2E;
+$darkYellowLight: #F2CD87;
+$darkPink: #F2668B;
+$darkPinkLight: #EBA2B5;
+$purple: #6204BF;
+$purpleLight: #BA8BE9;
+$bordeaux: #8C356E;
+$bordeauxLight: #C576AA;
+$red: #F20530;
+$redLight: #fc7575;
+$redLightHover: #ffb1bf;
+$sideBlock: #FFFFFF;
+$backgroundCore: #fbfbfb;
+$borderColor: #663a3a;
+$menuColor: #222f3a;
+$menuColorHover: #4b4b4b;
+$sideBlockDetailsColor: #4b4b4b;
+$sideBlockDetailsDark: #0d353d33;
+
+// GREYS
+$drakGray: #4b4b4b;
+$highGray: rgb(184, 184, 184);
+$mediumGray: #e8e8e8;
+$thinGray: #f8f8f8;
+$lisibleGrey: #d3d3d3;
+
+// FONTS
+$text: 9pt;
+$title: 11pt;
+$bigTitle: 13pt;
+$smallText: 7pt;
+
+// RADII
+$almostNoRadius: 2px;
+$smallRadius: 5px;
+$normalRadius: 8px;
+$radius: 20px;
+
+// MEDIA QUERIES
+$sideBlockMax: 565px;
+$navbarMax: 250px;
+$navbarMin: 100px;
+$sideBlockDisappear: 768px;
+$coreContainerMin: 544px;
+$navbarCollapse: 1024px;

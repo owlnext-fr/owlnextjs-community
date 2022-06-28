@@ -1,0 +1,77 @@
+@import '/styles/vars';
+
+.cellContainer{
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  .badgeTopRight{
+    position: absolute;
+    top: px;
+    right: 15px;
+    color: white;
+    height: 20px;
+    width: 70px;
+    font-size: $text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $radius;
+    
+  }
+
+  span{
+    // flex: 5;
+    font-size: 13px;
+    display: flex;
+  }
+
+  .icon{
+    // flex: 1;
+    width: 22px;
+    color: $highGray;
+    margin-right: 16px;
+  }
+}
+
+.cellquarter{
+  flex: 1 0 23%;
+}
+
+.cellhalf{
+  flex: 2 0 50%;
+}
+
+.cellthird{
+  flex: 1 0 30%;
+}
+
+.celltwothird{
+  flex: 1 0 66%;
+}
+
+.cellthreequarter{
+  flex: 3 0 75%;
+}
+
+.cellfull{
+  flex: 4 0 100%;
+}
+
+.cellfifth{
+  flex: 1 0 15%;
+}
+
+.celltwofifth{
+  flex: 1 0 36%;
+}
+
+.cellsixth{
+  flex: 1 0 5%;
+}
+
+.cell{
+  flex: 1;
+}

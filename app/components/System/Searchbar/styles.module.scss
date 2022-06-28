@@ -1,0 +1,28 @@
+@import '/styles/vars';
+
+.searchbarForm {
+
+  
+
+  .input, .input:focus, input{
+    // all: unset;
+    padding: 10px 5px;
+    border-radius: $radius;
+    border: 0 !important;
+    width: 100%;
+    color: #a1a1a1;
+
+    .MuiInputBase-formControl{
+      width: 100%;
+    }
+  }
+
+  svg{
+    color: #a1a1a1;
+  }
+
+  fieldset{
+    all: unset;
+  }
+}
+

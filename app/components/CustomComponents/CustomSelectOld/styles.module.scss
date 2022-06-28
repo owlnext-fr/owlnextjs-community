@@ -1,0 +1,28 @@
+.select {
+  height: 30px;
+  width: 280px;
+  max-width: calc(100% - 64px);
+  border-radius: 20px;
+  padding: 0 24px 0 16px;
+  box-shadow: 0px 0px 2px #222F3A;
+  border: none;
+  font-size: 10px;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+  background-color: #ffff;
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+}
+
+
+.chevronContainer{
+  position: relative;
+}
+
+.chevron{
+  position: absolute;
+  right: 12px;
+  top: 5px;
+  z-index: 1;
+}

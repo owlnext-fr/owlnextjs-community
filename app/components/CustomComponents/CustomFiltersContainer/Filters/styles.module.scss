@@ -1,0 +1,34 @@
+@import '/styles/vars';
+
+.filtersListContainer {
+	display: flex;
+	flex-direction: column;
+	font-size: $text !important;
+	color: $menuColor !important;
+	justify-content: center;	
+
+	.filterTitle {
+		margin: 0;
+	}
+
+	.filtersContainer {
+		.MuiAccordionSummary-contentGutters{
+			margin: 0 !important;
+		}
+
+		p {
+			font-size: $text !important;
+		}
+		.filtersList {
+			.filterOption {
+				.MuiFormControlLabel-label {
+					font-size: $text !important;
+				}
+			}
+		}
+	}
+	.validateFilters {
+		margin-top: 10px;
+		width: 50%;
+	}
+}

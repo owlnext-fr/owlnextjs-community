@@ -1,0 +1,84 @@
+@import '/styles/vars';
+
+
+
+.selectContainer{
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+  display: flex;
+  border-radius: $smallRadius;
+  align-items: center;
+  min-height: 28px;
+  font-size: $text;
+ 
+  
+  
+  .currentValue{
+    border-radius: $radius;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 2px $darkGray;
+    padding: 3px 5px;
+    z-index:1;
+    width: 100%;
+    background: #fff;
+    min-height: 28px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+
+    .icon{
+      position: absolute;
+      top: 5px;
+      right: 15px;
+    }
+
+    .photo{
+      width: 90%;
+      height: 25px;
+      border-radius: 25px;
+      flex: 1;
+      margin-right: 10px;
+      max-width: 25px;
+    }
+
+    .label{
+      flex: 10;
+    }
+  }
+
+  .currentValue.focus{
+    box-shadow: 0px 0px 2px $menuColor;
+   // padding-top: 2px;
+  }
+
+  .dropdown{
+    z-index: 0;
+    position: absolute;
+    top: 20px;
+    left:0;
+    padding-top: 20px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 6px;
+    border-bottom-left-radius: $radius;
+    border-bottom-right-radius: $radius;
+    box-shadow: 0px 0px 2px $darkGray;
+    background: white;
+    overflow: hidden;
+    
+    .option{
+      padding: 6px 16px;
+      font-size: 10px;
+      line-height: 14px;
+    }
+
+    .option:hover{
+      background: #03738C55;
+    }
+  }
+}

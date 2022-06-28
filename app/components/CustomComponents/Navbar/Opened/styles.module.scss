@@ -1,0 +1,149 @@
+@import '/styles/vars';
+
+.openedContainer{
+  width: 220px;
+  min-width: 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 0;
+
+  .dynamicContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .menu{
+
+      .separator{
+        background: $sideBlockDetailsDark;
+        width: 100%;
+        height: 2px;
+      }
+    }
+
+    .administration{
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+    }
+  }
+
+  .linkContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 30px;
+
+    svg{
+      transition: 0ms;
+    }
+
+    span{
+      flex: 5;
+      width: 85%;
+      padding-left: 15px;
+      font-size: $text;
+    }
+  }
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+
+    .logo{
+      width: 65%;
+      text-align: center;
+      padding: 0px;
+      margin: 0 auto;
+      cursor: pointer;
+      margin-top: 20px;
+
+      span{
+        margin: 0 auto;
+      }
+    }
+
+    .margin{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 35px;
+
+      svg{
+        margin: 0;
+      }
+  
+      span{
+        flex: 5;
+        width: 85%;
+        padding-left: 15px;
+        font-size: $title;
+      }
+    }
+
+    .dynamicContainer{
+      height: auto;
+      width: 100%;
+      height: 100%;
+
+      .menuContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px 10px;
+        font-size: $title;
+
+        .menuName{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          svg{
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .bot{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: white;
+
+    
+  }
+
+  // .selected, .linkContainer:hover{
+  //   background: white;
+  //   border-radius: 20px;
+  //   padding: 5px 10px;
+
+  //   svg{
+  //     fill: $nightBlue;
+  //   }
+    
+  //   span{
+  //     color: $nightBlue;
+  //   }
+  // }
+}

@@ -1,0 +1,46 @@
+@import '/styles/vars';
+
+.inputContainer{
+  position: relative;
+
+  .error{
+    box-shadow: 0px 0px 2px red !important;
+  }
+
+  .disabled{
+    background: $mediumGray !important;
+  }
+
+  .label{
+    font-size: $text;
+    color: $lisibleGrey;
+    margin-top: 5px;
+    // padding-left: 15px;
+  
+  }
+  
+  .textfield{
+    border-radius: $smallRadius;
+    padding: 8px 15px;
+    border: none;
+    // border: 1px solid $backgroundLightWhite;
+    box-shadow: 0px 0px 2px #222F3A;
+    background: white;
+    color: black;
+    width: 100%;
+    font-family: 'Manrope';
+    font-size: $text;
+    outline: none !important;
+  }
+  
+  .textfield:focus-visible{
+    
+  }
+  
+  .icon{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+  }
+}

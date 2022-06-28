@@ -1,0 +1,11 @@
+@import '/styles/vars';
+
+.customWysiwyg {
+  margin-bottom: 15px;
+  font-size: $text;
+}
+
+.readOnly > div > div{
+  background: $mediumGray;
+}
+  

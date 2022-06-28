@@ -1,0 +1,55 @@
+@import '/styles/vars';
+
+.navBarContainer{
+  background: $menuColor;
+  color: white;
+  padding: 0px;
+  z-index: 10;
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-start;
+
+    .margin{
+      margin-bottom: 35px;;
+    }
+
+    .dynamicContainer{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .bot{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: flex-end;
+    flex: 1;
+  }
+
+  svg.clearIcon{
+    fill: white;
+  } 
+}
+
+@media(max-width: $sideBlockDisappear) {
+  .navBarContainer{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  .navBarContainer{
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #00000029;
+  }
+}

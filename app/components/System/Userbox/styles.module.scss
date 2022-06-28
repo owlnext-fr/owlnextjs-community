@@ -1,0 +1,65 @@
+@import '/styles/vars';
+
+.userboxContainer{
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  
+  .icon{
+    font-size: 22pt;
+    color: #a1a1a1;
+    margin-left: 25px;
+    cursor: pointer;
+
+    &:hover{
+      opacity: 0.7;
+    }
+
+    &:active{
+      opacity: 0.5;
+    }
+  }
+
+  ul{
+    all: unset;
+    list-style: none;
+    width: 100%;
+
+    li:first-child{
+      margin-top: 0;
+    }
+
+    li{
+      margin-top: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:hover{
+        opacity: 0.7;
+      }
+
+      &:active{
+        opacity: 0.5
+      }
+      
+      .subIcon{
+        margin-right: 5px;
+      }
+    }
+
+    .deconnexion{
+      color: $redLight;
+    }
+  }
+}
+
+.public{
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .public{
+    display: block !important;
+  }
+}

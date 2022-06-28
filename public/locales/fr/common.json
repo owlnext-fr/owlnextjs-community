@@ -1,0 +1,19 @@
+{
+    "Login_Title": "Page de login",
+    "Login_RegisterLink": "S'inscrire",
+    "ForgottenPassword": "Mot de passe oublié",
+    "ForgottenPassword_Title": "Mot de passe oublié",
+    "ForgottenPassword_Text": "Inscrivez votre nom d'utilisateur",
+    "Previous": "Précédent",
+    "Validate": "Valider",
+    "Error_Login": "Une erreur est survenue",
+    "Parameters_Disconnect": "Déconnexion",
+    "Navbar_Home": "Dashboard",
+    "Search_Placeholder": "Recherche",
+    "Ticket_Object": "Sujet",
+    "Ticket_Status": "Statut",
+    "Ticket_WriteMessageHere": "Ecrivez votre message ici",
+    "Ticket_MessageSendWaiting": "Envoyer comme en attente",
+    "Ticket_MessageSendTreated": "Envoyer comme traité",
+    "Ticket_ConfirmCloseTicket": "Fermer le ticket ?"
+}

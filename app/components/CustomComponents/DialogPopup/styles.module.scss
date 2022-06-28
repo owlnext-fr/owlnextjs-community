@@ -1,0 +1,52 @@
+@import '/styles/vars';
+
+.dialogPopupContainer {
+  filter: none;
+  height: 100%;
+
+  .dialog{
+    border-radius: $radius;
+    position: absolute;
+
+    .MuiPaper-root{
+      border-radius: $radius;
+    }
+  }
+
+  .alignWindow{
+    position: fixed;
+    top: 15%;
+  }
+
+  .alignWindow{
+    
+  }
+
+  .title{
+
+  }
+
+  .message{
+
+  }
+
+  .content{
+
+  }
+
+  .buttonContainer{
+
+  }
+
+  .actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 15px 20px;
+  }
+
+  .topLine{
+    background: $sideBlockDetailsColor;
+    height: 20px;
+  }
+}

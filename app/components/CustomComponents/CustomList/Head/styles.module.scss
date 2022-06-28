@@ -1,0 +1,20 @@
+@import '/styles/vars';
+
+.headContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  border: 1px solid $borderColor;
+  border-radius: 20px;
+  min-height: 30px;
+
+  .headCell{
+    display: flex;
+    color: $highGray;
+    font-weight: bold;
+    font-size: $text;
+    padding: 10px 20px;
+  }
+}

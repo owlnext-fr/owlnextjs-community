@@ -1,0 +1,28 @@
+@import '/styles/vars';
+
+.sideblockactions {
+  box-shadow: 0px 3px 50px rgba(0,0,0,0.19);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #fff;
+  height: unset;
+  width: calc($sideBlockMax - 41px);
+  position: fixed;
+  flex: 1;
+  right:0;
+  bottom: 0;
+}
+
+@media (min-width: 1700px) {
+  .sideblockactions {
+    width: calc($sideBlockMax - 1px);
+  }
+}
+
+@media(max-width: 764px) {
+  .sideblockactions {
+    width: 100%;
+  }
+}

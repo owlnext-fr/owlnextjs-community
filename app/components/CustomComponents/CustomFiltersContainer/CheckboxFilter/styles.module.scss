@@ -1,0 +1,21 @@
+@import '/styles/vars';
+
+.checkboxFilter {
+
+	.filterOption{
+		display: flex;
+		padding: 0 15px;
+		
+		label{
+			span{
+				font-size: $text !important;
+				text-transform: capitalize;
+				padding: 0 !important;
+			}
+		}
+	}
+}
+
+.checkbox {
+	color: $menuColor !important;
+}

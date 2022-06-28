@@ -1,0 +1,51 @@
+@import '/styles/vars';
+
+.detailsNavigationContainer {
+  display: flex;
+  align-self: flex-end;
+  // border-top: solid 1px $highGray;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 16px;
+
+  .line {
+    width: calc(100% - 32px);
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+  }
+  .item{
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin-bottom: 2px;
+    width: 50%;
+    justify-content: center;
+
+    &:hover{
+      opacity: 0.7;
+    }
+
+    &:active{
+      opacity: 0.5;
+    }
+    
+    svg{
+      font-size: 18pt;
+      color: #c1c1c1;
+    }
+  }
+
+  .highlighted{
+    margin-bottom: 0;
+    border-bottom: 2px solid white;
+
+    svg{
+      color: white;
+    }
+  }
+}
+

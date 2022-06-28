@@ -1,0 +1,27 @@
+@import '/styles/vars';
+
+.option{
+  font-size: $text;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
+  .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+}
+
+.option:hover{
+  cursor: pointer;
+  background: $mediumGray;
+}
+
+.placeholder{
+  font-style: italic;
+  color: $backgroundLightWhite;
+}

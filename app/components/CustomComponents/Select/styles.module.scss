@@ -1,0 +1,51 @@
+@import 'app/styles/_vars';
+
+.selectContainer{
+  position: relative;
+  width: 100%;
+  // overflow: hidden;
+
+  & svg{
+    margin: unset !important;
+  }
+  
+  .select {
+    border-radius: $smallRadius;
+    box-shadow: 0px 0px 2px #222F3A;
+    background-color:unset;
+    height: 35px;
+    width: 100% !important;
+    margin-left: 1px;
+    padding: 0 24px 0 16px;
+    border: none;
+    font-size: 9pt;
+    font-family: Manrope;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    background-repeat: no-repeat;
+    background-position: center right 16px;
+  }
+  
+  .error{
+    outline: 1px solid $redLight !important;
+  }
+
+  .chevronContainer{
+    position: relative;
+  }
+  
+  .chevron{
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    z-index: 1;
+  }
+
+  .icon{
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    z-index: -1;
+  }
+}

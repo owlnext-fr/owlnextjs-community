@@ -1,0 +1,85 @@
+@import '/styles/vars';
+
+.error{
+  .checkmark {
+    border: 1px solid red;
+  }
+}
+
+.customcheckbox {
+  position: relative;
+  margin-top: 15px;
+
+  label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    // padding-top: 4px;
+    cursor: pointer;
+    font-size: $text;
+    margin-left: 8px;
+
+    input[type="checkbox"] {
+      // position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    .checkmark {
+      position: absolute;
+      top: 6px;
+      left: 0px;
+      height: 12px;
+      width: 12px;
+      background-color: #eee;
+      border-radius: 10%;
+    }
+
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    .checkmark:after {
+      left: 4px;
+      top: 2px;
+      width: 2px;
+      height: 5px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    input:checked ~ .checkmark:after {
+      display: block;
+    }
+  }
+}
+
+.customcheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.customcheckbox input:checked ~ .checkmark {
+  background-color: $menuColor;
+}
+
+.column{
+  
+  label{
+
+    .checkmark{
+      top: -15px;
+      left: 50%;
+      transform: translateX(50%);
+    }
+  }
+}

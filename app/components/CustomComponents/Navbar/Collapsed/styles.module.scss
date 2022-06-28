@@ -1,0 +1,144 @@
+@import '/styles/vars';
+
+.collapsedContainer{
+  width: 100%;
+  min-width: 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 10px;
+  padding-top: 0;
+
+  .linkContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px 10px;
+
+    svg{
+      transition: 0ms;
+    }
+
+    span{
+      flex: 5;
+      width: 85%;
+      padding-left: 15px;
+      font-size: $title;
+    }
+  }
+
+  .top{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+
+    .logo{
+      width: 100%;
+      text-align: center;
+      margin-top: 15px;
+
+      span{
+        margin: 0 auto;
+      }
+    }
+
+    .margin{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 35px;
+
+      svg{
+        margin: 0;
+      }
+  
+      span{
+        flex: 5;
+        width: 85%;
+        padding-left: 15px;
+        font-size: $title;
+      }
+    }
+
+    .dynamicContainer{
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+    }
+  }
+
+  .bot{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: white;
+
+    
+  }
+
+  svg{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .selected, .linkContainer:hover{
+
+    svg{
+      fill: $nightBlue;
+    }
+    
+    span{
+      color: $nightBlue;
+    }
+  }
+}
+  
+@media (max-width: 768px) {
+  .dynamicContainer{
+    flex-direction: row !important;
+  }
+  .collapsedContainer{
+    padding:0
+  }
+
+  .linkContainer{
+    margin-top: 0 !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    & svg{
+      width: 24px;
+      height: 24px;
+      fill: #000 !important;
+    }
+
+  }
+  .selected {
+    svg{
+      fill: #03738c !important;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .top{
+    padding: 6px 0 !important;
+  }
+}

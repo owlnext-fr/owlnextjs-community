@@ -1,0 +1,22 @@
+
+  .digits {
+    display: flex;
+    margin: -8px;
+
+    & input{
+      width: 45px;
+      height: 55px;
+      margin: 8px;
+      border-radius: 10px;
+      border: none;
+      background-color: #E8E8E8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  
+  

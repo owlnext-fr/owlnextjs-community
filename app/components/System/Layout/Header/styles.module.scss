@@ -1,0 +1,60 @@
+@import '/styles/vars';
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 25px;
+    z-index: 0;
+
+    .searchbarContainer{
+      flex: 2;
+    }
+
+    .userboxContainer{
+      // flex: 2;
+
+      .boxContainer{
+        display: flex;
+        align-items: center;
+      }
+    }
+}
+
+.closeIcon{
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.7;
+  }
+
+  &:active{
+    opacity: 0.5;
+  }
+
+}
+
+.kycBanner{
+  background-color: #ffe8c388;
+  border-bottom: dashed 1px orange;
+  padding: 8px 32px;
+  & p{
+    margin: unset;
+  }
+}
+
+@media(max-width: 768px) {
+  .searchbarContainer{
+    margin-left: -14px;
+  }
+  .headerContainer{
+    padding: 0 8px;
+   
+  }
+}

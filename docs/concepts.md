@@ -196,3 +196,25 @@ npm run createComponent <your_component_name>
 ```
 
 > ❔ For docker users, you can connect to your docker container with `docker-compose exec owlnextjs bash` and execute the same command.
+
+## Translations
+
+Translation is already included in the project, and you can use any JSON object stored in a language file using `public/locales/<language code>/<dictionary>.js`.
+
+In this project, only french (`fr`) translations are included ; but you can add dictionaries and translation methods from the `useTranslation` hook (`hooks/useTranslation/translations/index.ts`).
+
+You can also use the `import_translation.sh` as a starting point to create automated means of getting your translations from an external provider (here `localize.biz`).
+
+## Dotenv
+
+The `Dotenv` component is included with this project, meaning that you can use a `.env.local` file to store any environment specific variables (i.e. API credentials, etc.).
+
+To use it, simply copy the `.env` file as `.env.local` and start filling your environment variables.
+
+Then, in your code, you can access it with : 
+
+```typescript
+const myVar: string = process.env.MY_ENV_VARIABLE;
+```
+
+> ❔ Note that you have to prefix environment variables with `NEXT_PUBLIC` for them to be available on client-side code. Variables without this prefix will only be available on server context.

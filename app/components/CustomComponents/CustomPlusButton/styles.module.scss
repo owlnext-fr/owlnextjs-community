@@ -1,0 +1,32 @@
+@import '/styles/vars';
+
+.customPlusButtonContainer{
+  background: $sideBlockDetailsColor;
+  padding: 1px 10px;
+  color: white;
+  font-size: 18pt;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 250ms;
+}
+  
+.customPlusButtonContainer:hover{
+  background: $menuColor;
+}
+
+.variant_outlined{
+  padding: 0 8px;
+  font-size: 16pt;
+  background: white;
+  font-weight: bold;
+  border: 2px solid $sideBlockDetailsColor;
+  color: $sideBlockDetailsColor;
+}
+
+.variant_outlined:hover{
+  padding: 0 8px;
+  font-size: 16pt;
+  background: $sideBlockDetailsColor;
+  font-weight: bold;
+  color: white;
+}
