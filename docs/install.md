@@ -14,7 +14,7 @@ This project contains a `docker-compose.yml` file to run directly the project on
 
 To launch the container, run :
 ```bash
-docker-compose run --build -d
+docker-compose up --build -d
 ```
 
 Then, wait a minute the time for NPM to install all packages for you, and go to [http://localhost:3000](http://localhost:3000) to see the project running.
